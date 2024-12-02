@@ -1,4 +1,4 @@
-"""for i in range(7):#세로로 움직이는 반복문
+for i in range(7):#세로로 움직이는 반복문
     #print(i,end="")
     print("&" * (7 - i), end="")
     for j in range(1,i+2): #가로로 움직이는 반복문
@@ -24,15 +24,13 @@ a=[1,2,3,4,5,6,7,8,5,4,1]
 a.sort() #1부터 정렬, list 자체에 있는 값을 다 바꿔서 정렬
 a.reverse() #뒤에서 부터 출력 , list 자체에 있는 값을 다 바꿔서 출력
 print(a)
-"""
+
 
 a=[1,2,3,4]
 for i in range(len(a)):
     print(a[i]*2,sep="",end=" ")
 
-"""
+
 a=[1,2,3]
 for i in range(len(a)):
     a=[a[i]]
-    a=[2*i for in a]
-"""
