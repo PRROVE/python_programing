@@ -1,4 +1,3 @@
-"""
 def f1(a1,b2):
     a1 = 10
     a2 = 20
@@ -32,4 +31,4 @@ score = [80,60,75,81,65,24,88,90,86]
 for s in score:
     grade = grade_eval(s)
     print(grade)
-"""
+
